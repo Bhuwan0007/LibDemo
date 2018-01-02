@@ -12,6 +12,9 @@ public class Library {
 		System.out.println("added statements...");
 		System.out.println("added statements...");
 		System.out.println("added statements..."); 
+		System.out.println("added statements...");
+		System.out.println("added statements...");
+		System.out.println("added statements...");
 		
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
