@@ -9,6 +9,8 @@ public class Library {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		System.out.println("added statements...");
+		
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Select any User to Login :");
