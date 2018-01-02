@@ -22,6 +22,8 @@ public class Library {
 		do{
 			if(login == 1){
 				System.out.println("Admin Login ...");
+				System.out.println("Admin Login ...");
+
 				AdminLogin.getAdminLogin();
 			}else if(login == 2){
 				System.out.println("Librarian Login");
