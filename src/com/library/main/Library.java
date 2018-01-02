@@ -10,7 +10,7 @@ public class Library {
 		// TODO Auto-generated method stub
 		
 		System.out.println("added statements...");
-		System.out.println("added statements...");
+		System.out.println("added statements.g..");
 		
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
