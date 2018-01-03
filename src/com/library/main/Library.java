@@ -3,33 +3,26 @@ package com.library.main;
 import java.util.Scanner;
 
 import com.library.login.AdminLogin;
+import com.library.login.LibrarianLogin;
 
 public class Library {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("added statements...");
-		System.out.println("added statements...");
-		System.out.println("added statements...");
-		 
-		
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Select any User to Login :");
-		System.out.println("\n1. Admin Login \n2. Librarian Login");
+		System.out.println("\n 1. Admin Login \n 2. Librarian Login");
 		int login = sc.nextInt();
-		do{
-			if(login == 1){
-				System.out.println("Admin Login ...");
-				System.out.println("Admin Login ...");
-
-				AdminLogin.getAdminLogin();
-			}else if(login == 2){
-				System.out.println("Librarian Login");
-			}
-			
-		}while(login>1);
+		
+		if(login == 1){
+			System.out.println("Admin Login Successfully...");
+			AdminLogin.getAdminLogin();
+		}else if(login == 2){
+			System.out.println("Librarian Login");
+			LibrarianLogin.getLibrarianLogin();
+		}
 
 	}
 
